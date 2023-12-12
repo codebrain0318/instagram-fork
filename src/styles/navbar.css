@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+  width: 100%;
+  padding: 10px;
+
+  background-color: var(--background-primary);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.logo {
+  width: 120px;
+  padding: 10px;
+}
+
+.logo:hover {
+  cursor: pointer;
+  filter: saturate(80%);
+}
+
+.logo:active {
+  filter: saturate(50%);
+}
+
+.menu .icon {
+  margin-right: 20px;
+  width: 23px;
+  height: 23px;
+}
+
+.menu .icon:hover {
+  cursor: pointer;
+  filter: invert(40%) sepia(62%) saturate(1516%) hue-rotate(177deg)
+    brightness(106%) contrast(109%);
+}
+
+.menu .icon:active {
+  filter: invert(39%) sepia(77%) saturate(1308%) hue-rotate(317deg)
+    brightness(96%) contrast(106%);
+}
+
+/* changing svg colours with css using the filter - convert a hex color to filter using this codepen
+https://codepen.io/sosuke/pen/Pjoqqp
+*/

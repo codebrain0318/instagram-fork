@@ -1,0 +1,31 @@
+.explore {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  background-color: var(--background-secondary);
+}
+
+.explore input {
+  width: 400px;
+  background-color: var(--background-secondary);
+  padding: 8px;
+  color: #a0a0a0;
+  font-size: 16px;
+  height: 28px;
+  border: 1px solid #404040;
+  border-radius: 6px;
+}
+
+.explore .container {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  background-color: var(--background-secondary);
+}

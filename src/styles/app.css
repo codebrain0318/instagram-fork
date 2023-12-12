@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+:root {
+  --font: "Arsenal", sans-serif;
+  --background-primary: #232222;
+  --background-secondary: #191717;
+  --font-primary: #f4e3e3;
+  --font-secondary: #9e9898;
+  --border-primary: #1a1717;
+  --link-primary: #0095f6;
+}
+
+body {
+  background-color: var(--background-primary);
+  font-family: var(--font);
+  font-size: 18 spx;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-primary);
+}

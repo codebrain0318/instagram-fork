@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-primary);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 10px rgb(12, 10, 10);
+}
+
+.cardimage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.card h2 {
+  padding: 10px;
+  color: var(--font-color-primary);
+}
+
+.card h3 {
+  padding: 10px;
+  color: var(--font-primary);
+}
+
+.card h6 {
+  padding: 10px;
+  color: var(--font-primary);
+}
+
+.card p {
+  padding-left: 10px;
+  color: var(--font-secondary);
+}
